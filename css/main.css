@@ -73,6 +73,10 @@ li span {
   text-align: center;
 }
 
+.complete {
+  position: relative;
+}
+
 .video-background {
   position: fixed;
   right: 0;
