@@ -13,6 +13,10 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.form {
+  width: 480px;
+}
+
 .video-background {
   position: fixed;
   right: 0;
