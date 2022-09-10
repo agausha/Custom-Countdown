@@ -17,6 +17,10 @@ body {
   width: 480px;
 }
 
+label {
+  font-weight: bold;
+}
+
 .video-background {
   position: fixed;
   right: 0;
