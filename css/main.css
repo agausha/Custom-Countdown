@@ -33,6 +33,10 @@ input {
   font-family: "Nunito", sans-serif;
 }
 
+.error {
+  color: hsl(0deg, 83%, 55%);
+}
+
 .video-background {
   position: fixed;
   right: 0;

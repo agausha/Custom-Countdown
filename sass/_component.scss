@@ -20,4 +20,6 @@ input {
   font-family: 'Nunito', sans-serif;
 }
 
-.error {}
+.error {
+  color: $color-primary-error;
+}
