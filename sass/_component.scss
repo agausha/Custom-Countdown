@@ -75,5 +75,7 @@ li {
 }
 
 @keyframes complete {
-  0% {}
+  0% {
+    color: $color-primary-animation;
+  }
 }
