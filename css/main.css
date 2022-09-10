@@ -120,6 +120,24 @@ li span {
     color: hsl(286deg, 87%, 48%);
   }
 }
+@media screen and (max-width: 600px) {
+  .countdown {
+    position: relative;
+    top: 10px;
+  }
+  .form {
+    width: unset;
+  }
+  input {
+    width: 93%;
+  }
+  li {
+    font-size: 15px;
+  }
+  li span {
+    font-size: 40px;
+  }
+}
 .video-background {
   position: fixed;
   right: 0;

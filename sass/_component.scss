@@ -96,3 +96,28 @@ li {
     color: $color-primary-animation-4;
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SAMRTPHONE (VERTICAL)
+@media screen and (max-width: 600px) {
+  .countdown {
+    position: relative;
+    top: 10px;
+  }
+
+  .form {
+    width: unset;
+  }
+
+  input {
+    width: 93%;
+  }
+
+  li {
+    font-size: 15px;
+
+    span {
+      font-size: 40px;
+    }
+  }
+}
