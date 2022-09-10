@@ -36,6 +36,7 @@ input {
 .error {
   color: hsl(0deg, 83%, 55%);
   font-size: 15px;
+  margin: -0.5rem 0 0.4rem 0;
 }
 
 .video-background {
