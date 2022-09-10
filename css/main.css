@@ -29,6 +29,7 @@ input {
   border: 1px solid hsl(0deg, 0%, 80%);
   border-radius: 20px;
   background: hsl(0deg, 0%, 100%);
+  outline: none;
 }
 
 .video-background {
