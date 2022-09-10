@@ -1,1 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Nunito&display=swap");/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Nunito&display=swap");
+html {
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */
