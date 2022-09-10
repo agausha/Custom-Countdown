@@ -45,4 +45,5 @@ video {
   padding: 25px 50px;
   border-radius: 5px;
   z-index: 1;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
