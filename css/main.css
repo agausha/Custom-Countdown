@@ -94,6 +94,9 @@ li span {
     color: hsl(106deg, 89%, 48%);
     transform: scale(1.5);
   }
+  75% {
+    color: hsl(231deg, 100%, 50%);
+  }
 }
 
 @keyframes complete {
@@ -106,6 +109,9 @@ li span {
   50% {
     color: hsl(106deg, 89%, 48%);
     transform: scale(1.5);
+  }
+  75% {
+    color: hsl(231deg, 100%, 50%);
   }
 }
 .video-background {
