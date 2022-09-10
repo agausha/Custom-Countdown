@@ -30,6 +30,7 @@ input {
   border-radius: 20px;
   background: hsl(0deg, 0%, 100%);
   outline: none;
+  font-family: "Nunito", sans-serif;
 }
 
 .video-background {
