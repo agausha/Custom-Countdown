@@ -83,6 +83,9 @@ li span {
           animation: complete 4s infinite;
 }
 
+@-webkit-keyframes complete {}
+
+@keyframes complete {}
 .video-background {
   position: fixed;
   right: 0;
