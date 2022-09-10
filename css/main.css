@@ -19,4 +19,8 @@ body {
   bottom: 0;
   width: 100vw;
   height: auto;
+}
+
+video {
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
