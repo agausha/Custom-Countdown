@@ -70,6 +70,7 @@ li {
 li span {
   display: block;
   font-size: 80px;
+  text-align: center;
 }
 
 .video-background {
