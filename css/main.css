@@ -48,4 +48,8 @@ video {
   display: flex;
   justify-content: center;
   background: hsla(0deg, 0%, 100%, 0.85);
+}
+
+.input-container {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
