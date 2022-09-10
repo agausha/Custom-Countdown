@@ -11,4 +11,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Nunito", sans-serif;
+}
+
+.video-background {
+  position: fixed;
 }/*# sourceMappingURL=main.css.map */
