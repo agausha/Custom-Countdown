@@ -75,6 +75,7 @@ li span {
 
 .complete {
   position: relative;
+  top: 60px;
 }
 
 .video-background {
