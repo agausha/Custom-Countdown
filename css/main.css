@@ -50,6 +50,7 @@ button {
   background: hsl(171deg, 100%, 21%);
   color: hsl(0deg, 0%, 100%);
   cursor: pointer;
+  outline: none;
 }
 
 .video-background {
