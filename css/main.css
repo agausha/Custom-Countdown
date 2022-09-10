@@ -67,6 +67,10 @@ li {
   padding: 10px;
   text-transform: uppercase;
 }
+li span {
+  display: block;
+}
+
 .video-background {
   position: fixed;
   right: 0;

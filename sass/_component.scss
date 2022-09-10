@@ -57,5 +57,7 @@ li {
   padding: $padding;
   text-transform: uppercase;
 
-  span {}
+  span {
+    display: block;
+  }
 }
