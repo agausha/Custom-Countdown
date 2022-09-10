@@ -52,6 +52,10 @@ button {
   cursor: pointer;
   outline: none;
 }
+button:hover {
+  filter: brightness(110%);
+}
+
 .video-background {
   position: fixed;
   right: 0;
