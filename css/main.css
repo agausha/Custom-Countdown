@@ -19,6 +19,7 @@ body {
 
 label {
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .video-background {
