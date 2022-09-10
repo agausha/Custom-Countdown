@@ -47,4 +47,5 @@ video {
   z-index: 1;
   display: flex;
   justify-content: center;
+  background: hsla(0deg, 0%, 100%, 0.85);
 }/*# sourceMappingURL=main.css.map */
