@@ -78,6 +78,11 @@ li span {
   top: 60px;
 }
 
+.complete-title {
+  -webkit-animation: complete 4s infinite;
+          animation: complete 4s infinite;
+}
+
 .video-background {
   position: fixed;
   right: 0;
