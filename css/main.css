@@ -92,6 +92,7 @@ li span {
   }
   50% {
     color: hsl(106deg, 89%, 48%);
+    transform: scale(1.5);
   }
 }
 
@@ -104,6 +105,7 @@ li span {
   }
   50% {
     color: hsl(106deg, 89%, 48%);
+    transform: scale(1.5);
   }
 }
 .video-background {
