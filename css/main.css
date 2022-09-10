@@ -87,11 +87,17 @@ li span {
   0% {
     color: hsl(0deg, 89%, 48%);
   }
+  25% {
+    color: hsl(54deg, 89%, 48%);
+  }
 }
 
 @keyframes complete {
   0% {
     color: hsl(0deg, 89%, 48%);
+  }
+  25% {
+    color: hsl(54deg, 89%, 48%);
   }
 }
 .video-background {
