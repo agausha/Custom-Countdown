@@ -48,6 +48,7 @@ button {
   border: none;
   text-transform: uppercase;
   background: hsl(171deg, 100%, 21%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 .video-background {
