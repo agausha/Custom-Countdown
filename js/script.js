@@ -9,3 +9,4 @@ const timeElements = document.querySelectorAll('span');
 
 const CompleteEl = document.getElementById('complete');
 const completeElInfo = document.getElementById('complete-info');
+const completeBtn = document.getElementById('complete-button');
