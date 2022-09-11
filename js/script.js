@@ -37,6 +37,7 @@ function updateCountdown(e) {
 
     // Get number version of current Date, updateDOM
   countdownValue = new Date(countdownDate).getTime();
+  updateDOM();
 }
 
 // Event Listeners
