@@ -75,10 +75,14 @@ function updateCountdown(e) {
   }
   if (!countdownDate) {
     countdownElDateError.textContent = 'Please select a date for the countdown';
-  }
+  } else {
+    // Reset
+    countdownElTitleError.textContent = '';
+    countdownElDateError.textContent = '';
     // Get number version of current Date, updateDOM
-  countdownValue = new Date(countdownDate).getTime();
-  updateDOM();
+    countdownValue = new Date(countdownDate).getTime();
+    updateDOM();
+  }
 }
 
 // Event Listeners
