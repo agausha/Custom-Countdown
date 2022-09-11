@@ -93,6 +93,7 @@ function restorePreviousCountdown() {
     countdownTitle = savedCountdown.title;
     countdownDate = savedCountdown.date;
     countdownValue = new Date(countdownDate).getTime();
+    updateDOM();
   }
 }
 
