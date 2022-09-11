@@ -116,3 +116,6 @@ function restorePreviousCountdown() {
 countdownForm.addEventListener('submit', updateCountdown);
 countdownBtn.addEventListener('click', reset);
 completeBtn.addEventListener('click', reset);
+
+// On load, check localStorage
+restorePreviousCountdown();
