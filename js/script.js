@@ -24,3 +24,7 @@ const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
+
+// Set Date Input Min with Today's Date
+const today = new Date().toISOString().split('T')[0];
+dateEl.setAttribute('min', today);
