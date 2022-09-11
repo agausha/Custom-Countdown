@@ -33,3 +33,6 @@ dateEl.setAttribute('min', today);
 function updateCountdown(e) {
   e.preventDefault();
 }
+
+// Event Listeners
+countdownForm.addEventListener('submit', updateCountdown);
