@@ -16,3 +16,4 @@ const countdownElDateError = document.querySelector('.countdown-date-error');
 // Global variables
 let countdownTitle = '';
 let countdownDate = '';
+let countdownValue = new Date();
