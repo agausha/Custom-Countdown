@@ -21,3 +21,4 @@ let countdownActive;
 let savedCountdown;
 
 const second = 1000;
+const minute = second * 60;
