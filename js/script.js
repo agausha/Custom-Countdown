@@ -86,7 +86,19 @@ function updateCountdown(e) {
 }
 
 // Reset All Values
-function reset() {}
+function reset() {
+  // Hide Countdowns, show input form
+  countdownEl.hidden = true;
+  CompleteEl.hidden = true;
+  inputContainer.hidden = false;
+  // Stop the countdown
+  clearInterval(countdownActive);
+  // Reset values, remove localStorage item
+  countdownTitle = '';
+  countdownDate = '';
+  countdownForm.reset();
+  localStorage.removeItem('countdown');
+}
 
 function restorePreviousCountdown() {
   // Get countdown from localStorage if available
