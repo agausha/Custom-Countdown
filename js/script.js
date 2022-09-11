@@ -19,3 +19,5 @@ let countdownDate = '';
 let countdownValue = new Date();
 let countdownActive;
 let savedCountdown;
+
+const second = 1000;
