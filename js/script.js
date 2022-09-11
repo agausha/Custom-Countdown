@@ -29,6 +29,9 @@ const day = hour * 24;
 const today = new Date().toISOString().split('T')[0];
 dateEl.setAttribute('min', today);
 
+// Populate Countdown / Complete UI
+function updateDOM() {}
+
 // Take Values from Form Input
 function updateCountdown(e) {
   e.preventDefault();
