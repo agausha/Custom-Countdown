@@ -17,3 +17,4 @@ const countdownElDateError = document.querySelector('.countdown-date-error');
 let countdownTitle = '';
 let countdownDate = '';
 let countdownValue = new Date();
+let countdownActive;
