@@ -28,3 +28,6 @@ const day = hour * 24;
 // Set Date Input Min with Today's Date
 const today = new Date().toISOString().split('T')[0];
 dateEl.setAttribute('min', today);
+
+// Take Values from Form Input
+function updateCountdown(e) {}
