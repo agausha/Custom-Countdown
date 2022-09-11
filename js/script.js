@@ -12,3 +12,6 @@ const completeElInfo = document.getElementById('complete-info');
 const completeBtn = document.getElementById('complete-button');
 const countdownElTitleError = document.querySelector('.countdown-title-error');
 const countdownElDateError = document.querySelector('.countdown-date-error');
+
+// Global variables
+let countdownTitle = '';
