@@ -73,6 +73,9 @@ function updateCountdown(e) {
   if (!countdownTitle) {
     countdownElTitleError.textContent = 'Please enter a title for the countdown';
   }
+  if (!countdownDate) {
+    countdownElDateError.textContent = 'Please select a date for the countdown';
+  }
     // Get number version of current Date, updateDOM
   countdownValue = new Date(countdownDate).getTime();
   updateDOM();
