@@ -32,6 +32,7 @@ dateEl.setAttribute('min', today);
 // Take Values from Form Input
 function updateCountdown(e) {
   e.preventDefault();
+  countdownTitle = e.srcElement[0].value;
 }
 
 // Event Listeners
