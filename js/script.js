@@ -85,6 +85,9 @@ function updateCountdown(e) {
   }
 }
 
+// Reset All Values
+function reset() {}
+
 function restorePreviousCountdown() {
   // Get countdown from localStorage if available
   if (localStorage.getItem('countdown')) {
