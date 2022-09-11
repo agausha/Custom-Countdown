@@ -69,6 +69,10 @@ function updateCountdown(e) {
     date: countdownDate,
   };
   localStorage.setItem('countdown', JSON.stringify(savedCountdown));
+  // Validate title & date
+  if (!countdownTitle) {
+    countdownElTitleError.textContent = 'Please enter a title for the countdown';
+  }
     // Get number version of current Date, updateDOM
   countdownValue = new Date(countdownDate).getTime();
   updateDOM();
