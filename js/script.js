@@ -85,5 +85,7 @@ function updateCountdown(e) {
   }
 }
 
+function restorePreviousCountdown() {}
+
 // Event Listeners
 countdownForm.addEventListener('submit', updateCountdown);
