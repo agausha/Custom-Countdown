@@ -30,7 +30,34 @@ const today = new Date().toISOString().split('T')[0];
 dateEl.setAttribute('min', today);
 
 // Populate Countdown / Complete UI
-function updateDOM() {}
+function updateDOM() {
+  countdownActive = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = countdownValue - now;
+    const days = Math.floor(distance / day);
+    const hours = Math.floor((distance % day) / hour);
+    const minutes = Math.floor((distance % hour) / minute);
+    const seconds = Math.floor((distance % minute) / second);
+    // Hide Input 
+    inputContainer.hidden = true;
+    // If the countdown has ended, show complete
+    if (distance < 0) {
+      countdownEl.hidden = true;
+      clearInterval(countdownActive);
+      completeElInfo.textContent = `${countdownTitle} finished on ${countdownDate}`;
+      CompleteEl.hidden = false;
+    } else {
+      // Else, show the countdown in progress
+      countdownElTitle.textContent = `${countdownTitle}`;
+      timeElements[0].textContent = `${days}`;
+      timeElements[1].textContent = `${hours}`;
+      timeElements[2].textContent = `${minutes}`;
+      timeElements[3].textContent = `${seconds}`;
+      CompleteEl.hidden = true;
+      countdownEl.hidden = false;
+    }
+  }, second);
+}
 
 // Take Values from Form Input
 function updateCountdown(e) {
