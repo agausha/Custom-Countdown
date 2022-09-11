@@ -30,4 +30,6 @@ const today = new Date().toISOString().split('T')[0];
 dateEl.setAttribute('min', today);
 
 // Take Values from Form Input
-function updateCountdown(e) {}
+function updateCountdown(e) {
+  e.preventDefault();
+}
